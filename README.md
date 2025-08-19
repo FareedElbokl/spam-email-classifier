@@ -13,8 +13,6 @@ A machine learning project in Python that classifies SMS messages as spam or non
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Evaluation](#evaluation)
-- [Future Improvements](#future-improvements)
 
 ---
 
@@ -24,7 +22,7 @@ This project demonstrates a full machine learning workflow for text classificati
 
 1. **Load and preprocess data** – clean and normalize SMS messages.
 2. **Vectorize text** – convert messages into numerical features using TF-IDF.
-3. **Train model** – use a Naive Bayes classifier to distinguish spam from ham.
+3. **Train model** – use a Naive Bayes classifier to distinguish spam from ham (non-spam).
 4. **Evaluate** – compute accuracy, precision, recall, and F1 score.
 5. **Predict** – classify new SMS messages.
 
