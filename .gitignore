@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints (just in case)
+.ipynb_checkpoints/
+
+# PyCharm / VSCode settings
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+
+# Models / trained artifacts
+models/*.pkl
+
+# NLTK downloaded data (if any)
+nltk_data/
